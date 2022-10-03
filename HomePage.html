@@ -45,11 +45,10 @@
     #color3:hover {
         color: gray;
     }
-    #footerS {
+    .santi {
         position: absolute;
         bottom: 0;
         height: 80px;
-        
     }
     .imagen {
         height: 60px;
@@ -79,6 +78,25 @@
         width: 70px;
         height: 70px;
         top: 10px;
+    }
+    .centrar {
+        height: 70vh;
+        display: block;
+        width: 700px;
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+    }
+    .centrar {
+        display: block;
+        margin: auto;
+    }
+    #canon {
+        height: 70vh;
+    }
+
+    #carouselExampleControls {
+        min-height: calc(100vh - 100px - 300px);
     }
 </style>
     <title>Hello, world!</title>
@@ -110,7 +128,47 @@
         </div>
       </nav>
 
-      <footer class="container-fluid bg-secondary" id="footerS">
+
+      <div id="carouselExampleControls" class="carousel slide bg-secondary" data-bs-ride="carousel" data-bs-pause=“false”>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/canon-removebg-preview.png" class="d-flex align-items-center w-50 h-50 centrar "  id="canon"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/ventilador-removebg-preview.png" class="centrar"  id="mac"  alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/espectometro-removebg-preview.png" class="centrar w-auto"  id="peso"  alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section class="mt-5">
+        <div>
+            <h1 class="d-flex justify-content-center">Hola</h1>
+            <h1 class="d-flex justify-content-center">Hola</h1>
+            <h1 class="d-flex justify-content-center">Hola</h1>
+            <h1 class="d-flex justify-content-center">Hola</h1>
+            <h1 class="d-flex justify-content-center">Hola</h1>
+            <h1 class="d-flex justify-content-center">Hola</h1>
+            <h1 class="d-flex justify-content-center">Hola</h1>
+            <h1 class="d-flex justify-content-center">Hola</h1>
+            <h1 class="d-flex justify-content-center">Hola</h1> <h1 class="d-flex justify-content-center">Hola</h1>
+            
+        </div>
+      </section>
+
+
+
+      <footer class="container-fluid bg-secondary santi" >
         <img src="./images/holbieauctions-removebg-preview-removebg-preview.png" class="imagen" alt="">
         <p class="d-flex justify-content-center mt-4 text-light">holberton school</p>
 
