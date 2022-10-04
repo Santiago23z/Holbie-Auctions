@@ -11,6 +11,7 @@
     .hola {
         width: 140px;
         height: 70px;
+    
     }
     #separacion:hover {
         color: gray;
@@ -49,6 +50,7 @@
         position: absolute;
         bottom: 0;
         height: 80px;
+        background-color:  rgb(84, 156, 204);
     }
     .imagen {
         height: 60px;
@@ -95,14 +97,47 @@
         height: 70vh;
     }
 
+    .holberton {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
     #carouselExampleControls {
         min-height: calc(100vh - 100px - 300px);
     }
+   #text {
+    color:  rgb(84, 156, 204);
+   padding-left: 105px;
+   }
+   #navbarT {
+    margin-bottom: 150px;
+   }
+
+   .portada {
+    position: absolute;
+    right: 139px;
+    top: 230px;
+    height: 400px;
+    width: 840px;
+   }
+
+   #auctions {
+    margin-top: 0;
+    padding-left: 105px;
+   }
+
+   #auctions1 {
+    padding-left: 140px;
+   }
+   #auctions2 {
+    padding-left: 90px;
+
+   }
 </style>
-    <title>Hello, world!</title>
+    <title>Holbie Auctions</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarT">
         <div class="container-fluid h-100">
           <img src="./images/holbieauctions-removebg-preview-removebg-preview.png" class="hola" alt="">
           </button>
@@ -129,7 +164,7 @@
       </nav>
 
 
-      <div id="carouselExampleControls" class="carousel slide bg-secondary" data-bs-ride="carousel" data-bs-pause=“false”>
+      <!-- <div id="carouselExampleControls" class="carousel slide bg-secondary" data-bs-ride="carousel" data-bs-pause=“false”>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./images/canon-removebg-preview.png" class="d-flex align-items-center w-50 h-50 centrar "  id="canon"  alt="...">
@@ -149,29 +184,34 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+      </div> -->
 
-      <section class="mt-5">
+      <section class="mt-5  d-flex  justify-content-center">
         <div>
-            <h1 class="d-flex justify-content-center">Hola</h1>
-            <h1 class="d-flex justify-content-center">Hola</h1>
-            <h1 class="d-flex justify-content-center">Hola</h1>
-            <h1 class="d-flex justify-content-center">Hola</h1>
-            <h1 class="d-flex justify-content-center">Hola</h1>
-            <h1 class="d-flex justify-content-center">Hola</h1>
-            <h1 class="d-flex justify-content-center">Hola</h1>
-            <h1 class="d-flex justify-content-center">Hola</h1>
-            <h1 class="d-flex justify-content-center">Hola</h1> <h1 class="d-flex justify-content-center">Hola</h1>
-            
+            <h1 class="fs-3" id="auctions">Holbie auctions
+                <h2 class="" id="text">¿What we do?</h2>
+                <p class="mt-4   text-info" id="auctions1">Cohort 17-2022</p>
+            </h1>
+            <div class="pe-4" id="auctions2">
+                <p class="w-25 fs-4 "id="producText">
+                   <span class="w-75"> Products, tools and obsolete inventory that any company wishes to sell. An auction for any buyer who wishes to bid. A win-win solution that allows to unite needs!</span></p>
+            </div>
+
+            <img src="./images/imagenPortada-removebg-preview.png" alt="" class="portada">
+
+
         </div>
       </section>
 
 
 
-      <footer class="container-fluid bg-secondary santi" >
+      <footer class="container-fluid  santi" >
         <img src="./images/holbieauctions-removebg-preview-removebg-preview.png" class="imagen" alt="">
-        <p class="d-flex justify-content-center mt-4 text-light">holberton school</p>
 
+        <div>
+            <p class="holberton text-center"></p>
+        </div>
+       
         <a href="">
             <img src="./images/2437730f7e3a5705e205e67fa2cd1020-removebg-preview.png" class="insta" alt="">
         </a>
