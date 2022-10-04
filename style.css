@@ -1,0 +1,156 @@
+.hola {
+    width: 140px;
+    height: 70px;
+
+}
+#separacion:hover {
+    color: gray;
+}
+#separacion {
+    margin-left: 400px;
+    color:  rgb(84, 156, 204);
+}
+#buttons:hover {
+    color: white;
+}
+#buttons{
+    height: 40px;
+    position: relative;
+    left: 370px;
+    top: 5px;
+    bottom: 2px;
+    border-radius: 5px;
+    background-color: rgb(84, 156, 204);
+    border: 2px;
+    padding: 7px 20px 20px 20px;
+}
+#color2 {
+    color:  rgb(84, 156, 204);
+}
+#color2:hover {
+    color: gray;
+}
+#color3 {
+     color:  rgb(84, 156, 204);
+}
+#color3:hover {
+    color: gray;
+}
+.santi {
+    position: relative;
+    bottom: 0;
+    height: 80px;
+    background-color:  rgb(84, 156, 204);
+}
+.imagen {
+    height: 60px;
+    position: absolute;
+    bottom: 7px;
+}
+#Parrafo {
+    margin-top: 10px;
+}
+.insta {
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    right: 7px;
+    top: 16px;
+}
+.wpp {
+    position: absolute;
+    right: 80px;
+    width: 50px;
+    height: 50px;
+    top: 16px;
+}
+.fb {
+    position: absolute;
+    right: 140px;
+    width: 70px;
+    height: 70px;
+    top: 10px;
+}
+.centrar {
+    height: 70vh;
+    display: block;
+    width: 700px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+.centrar {
+    display: block;
+    margin: auto;
+}
+.secion {
+margin-top: 100px;
+margin-left: 60px;
+width: 50%;
+}
+
+
+/* responsive view*/
+
+@media(max-width: 750px) {
+#imagenP {
+  display: block;
+  margin: auto;
+  width: 600px;
+ 
+}
+
+.santi {
+    position: relative;
+    bottom: 0;
+    height: 80px;
+    background-color:  rgb(84, 156, 204);
+}
+
+.fb {
+    position: absolute;
+    right: 110px;
+    width: 50px;
+    object-fit: cover;
+    height: 50px;
+    top: 13px;
+}
+.wpp {
+    position: absolute;
+    right: 60px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    top: 16px;
+}
+
+.insta {
+    width: 40px;
+    object-fit: cover;
+    height: 40px;
+    position: absolute;
+    right: 7px;
+    top: 16px;
+}
+
+.secion {
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 100%;
+    }
+}
+
+@media(max-width: 750px) {
+#imagenP {
+  display: block;
+  margin: auto;
+  width: 400px;
+}
+
+.santi {
+    position:relative;
+    bottom: 0;
+    height: 80px;
+    background-color:  rgb(84, 156, 204);
+}
+} 
