@@ -107,7 +107,139 @@
     display: none;
   }
 
- 
+@media (min-width: 1190px) {
+  .button-Biology {
+  position: absolute;
+  right: 1080px;
+  top: 189px;
+  border: none;
+  font-size: 25px;
+  color: rgb(84, 156, 204);
+  background-color: white;
+ } 
+
+ .button-Hydraulic {
+  position: absolute;
+  right: 800px;
+  top: 189px;
+  border: none;
+  font-size: 25px;
+  color: rgb(84, 156, 204);
+  background-color: white;
+ } 
+
+
+ .button-tele {
+  position: absolute;
+  right: 470px;
+  top: 189px;
+  border: none;
+  font-size: 25px;
+  color: rgb(84, 156, 204);
+  background-color: white;
+ } 
+
+
+
+ .button-photo {
+  position: absolute;
+  right: 250px;
+  top: 189px;
+  border: none;
+  font-size: 25px;
+  color: rgb(84, 156, 204);
+  background-color: white;
+ }  
+
+
+
+
+ .button-Biology:hover {
+  color: gray;
+ }
+
+
+ .button-tele:hover {
+  color: gray;
+ }
+
+ .button-photo:hover {
+  color: gray;
+ }
+
+ .button-Hydraulic:hover {
+  color: gray;
+ }
+}
+
+
+
+
+
+
+
+ @media (max-width: 1189px) {
+
+  .button-photo {
+  border: none;
+  font-size: 25px; 
+  color: rgb(84, 156, 204); 
+  background-color: white; 
+  margin-top: 34px;
+  margin-left: 43px;
+  margin-bottom: 20px;
+  justify-content: center;
+ }
+
+ .button-tele {
+  border: none;
+  font-size: 25px; 
+  color: rgb(84, 156, 204); 
+  background-color: white; 
+  margin-top: 34px;
+  margin-left: 8px;
+  margin-bottom: 20px;
+  justify-content: center;
+ }
+
+ .button-Hydraulic {
+  border: none;
+  font-size: 25px; 
+  color: rgb(84, 156, 204); 
+  background-color: white; 
+  margin-top: 34px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  justify-content: center;
+ }
+
+ .button-Biology {
+  border: none;
+  font-size: 25px; 
+  color: rgb(84, 156, 204); 
+  background-color: white; 
+  margin-top: 34px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  justify-content: center;
+ }
+
+ #container-products {
+    margin-top: 50px;
+}
+
+.santi {
+    position: relative;
+    bottom: 0;
+    height: 80px;
+    background-color:  rgb(84, 156, 204);
+}
+ }
+
+
+
+
+
 
 
   @media (min-width: 990px) {
@@ -188,60 +320,20 @@
         </ul>
       </div>
 
-    <!--div class="container">
-        <section class="filters">
-            <div class="categories">
-                <!--div class="mobile-menu inactiv">
-                    <ul>
-                      <li>
-                        <a href="/">Biology</a>
-                      </li>
-                      <li>
-                        <a href="/">Hydraulic</a>
-                      </li>
-                      <li>
-                        <a href="/">Photography</a>
-                      </li>
-                      <li>
-                        <a href="/">Telecommunications</a>
-                      </li>
-                    </ul>
-                    <ul>
-                <!--h3>Categories</h3>
-                    <ul class="popover">
-                        <li>
-                        <h4>
-                            <a class="dropdown-item" href="#">Biology</a>
-                        </h4>
-                        </li>
-                        <li>
-                        <h4>
-                            <a class="dropdown-item" href="#">Hydraulic</a>
-                        </h4>
-                        </li>
-                        <li>
-                        <h4>
-                            <a class="dropdown-item" href="#">Photography</a>
-                        </h4>
-                        </li>
-                        <li>
-                        <h4>
-                            <a class="dropdown-item" href="#">Telecommunications</a>
-                        </h4>
-                        </li>
-                    </ul>
-            </div>
-        <button>
-            Search
-        </button-->
 
-        </section>
+        
             <section class="auctions">
+             
                 <!--h1>Auctions online</h1-->
                     <!--article-->
-                    <div class="container">
+                    <div class="container d-flex justify-content-center" id="container-products">
+                      
+                      
+                     
+                      
                         <div class="row row-cols-auto">
                             <div class="col">
+                              <button class="button-Biology ">Biology</button>
                                 <div class="card" style="width: 15rem;">
                                 <div class="card-header">
                                     <h6 class="d-flex justify-content-center mt-1">
@@ -254,10 +346,11 @@
                                     <a href="/HomePage.html" class="btn btn-primary d-flex justify-content-center">See more</a>
                                 </div>
                             </div>
-                        </div>
+                            </div>
                     <!--/article-->
                 <!--article-->
                             <div class="col">
+                              <button class="button-Hydraulic">Hydraulic</button>
                                 <div class="card" style="width: 15rem;">
                                 <div class="card-header">
                                     <h6 class="d-flex justify-content-center mt-1">
@@ -272,10 +365,11 @@
                                     <a href="#" class="btn btn-primary d-flex justify-content-center">See more</a>
                                 </div>
                             </div>
-                        </div>
+                            </div>
                 <!--/article-->
                 <!--article-->
                             <div class="col">
+                              <button class="button-tele">Telecommunications</button>
                                 <div class="card" style="width: 15rem;">
                                 <div class="card-header">
                                     <h6 class="d-flex justify-content-center mt-1">
@@ -293,6 +387,7 @@
                         </div>
                 <!--/article-->
                             <div class="col">
+                              <button class="button-photo">Photography</button>
                                 <div class="card" style="width: 15rem;">
                                 <div class="card-header">
                                     <h6 class="d-flex justify-content-center mt-1">
@@ -312,6 +407,13 @@
                     </div>
             </section>
     </div>
+
+
+
+
+
+
+
     <footer class="container-fluid  santi" >
         <img src="./images/holbieauctions-removebg-preview-removebg-preview.png" class="imagen" alt="">
 
