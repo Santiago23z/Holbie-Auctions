@@ -190,3 +190,15 @@
     #current:hover {
       color: white;
     }
+
+    @media (max-width: 1115px){
+        #camarita {
+            display: block;
+            margin: auto;
+        }
+        #títuloProducto {
+            position: absolute;
+            right: 1200px;
+            width: 100px;
+        }
+    }
