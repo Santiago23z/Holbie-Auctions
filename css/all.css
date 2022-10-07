@@ -7,6 +7,10 @@
     justify-content: center;
 }
 
+.auctions {
+    padding: 0;
+}
+
 .auctions > h1 {
     font-size: 30px;
     padding-left: 20px;

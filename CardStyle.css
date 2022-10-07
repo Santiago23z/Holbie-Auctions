@@ -116,7 +116,7 @@
     padding-left: 105px;
    }
 
-   #auctions1 {
+    #auctions1 {
     padding-left: 140px;
    }
    #auctions2 {
@@ -129,7 +129,7 @@
     margin-top: 0px;
    }
 
-   .card-title {
+   /* .card-title {
     position: absolute;
     right: 0;
     top: 210px;
@@ -141,7 +141,7 @@
     right: 0;
     top: 250px;
     left: 980px;
-   }
+   }  */
 
    #títuloProducto {
     position: absolute;
@@ -150,10 +150,9 @@
     }
 
    .ingreseValor {
-    display: block;
-    margin: auto;
+    
     margin-top: 60px;
-    margin-left: 140px;
+    margin-left: 40px;
     padding: 8px;
     border-radius: 6px;
     background-color: rgb(197, 194, 194);
@@ -166,7 +165,7 @@
       border-radius: 6px;
       padding: 12px;
       width: 120px;
-      margin-left: 180px;
+      margin-left: 90px;
       margin-top: 15px;
       background-color: rgb(84, 156, 204);
       border: none;
@@ -178,10 +177,10 @@
 
     #current {
       display: block;
-      margin: 60px;
+      margin: 0px;
       border-radius: 6px;
-      padding: 12px;
-      margin-left: 450px;
+      height: 67px;
+      margin-left: 350px;
       margin-top: -110px;
       background-color: rgb(84, 156, 204);
       border: none;
@@ -191,14 +190,45 @@
       color: white;
     }
 
-    @media (max-width: 1115px){
+
+
+@media (min-width: 1115px) {
+    #camarita {
+        position: fixed;
+        top: 150px;
+        right: 800px;
+        width: 500px;
+    }
+    #títuloProducto{
+        position: absolute;
+        top: 60px;
+    }
+
+    .santi {
+        position: fixed;
+        bottom: 0;
+        height: 80px;
+        background-color:  rgb(84, 156, 204);
+    }
+}
+
+    @media (max-width: 1114px){
         #camarita {
             display: block;
             margin: auto;
+            width: 400px;
+        
         }
         #títuloProducto {
-            position: absolute;
-            right: 1200px;
-            width: 100px;
+            display: block;
+            margin: auto;
+            margin-top: 270px;
+            margin-left: -600px;
+            }
+
+        .santi {
+            position: relative;
+            margin-top: 350px;
+            bottom: 0;
         }
     }
