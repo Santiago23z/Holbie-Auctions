@@ -70,9 +70,10 @@
         </h2>
         <div id="info">
           <span class="d-flex justify-content-center mt-lg-5 fs-4">Price Starting at $488.650</span>
-          <input type="text" name="Here" placeholder="Your price here $" class="ingreseValor">
-          <button id="bid" class="fs-5">BID</button>
-          <button class="fs-6 w-25 p-1" id="current">CURRENT PRICE</button>
+          <input type="text" name="Here" placeholder="Your price here $" class="ingreseValor" id="newOffer">
+          <button id="bid" class="fs-5" onclick="updatePrice(newOffer)">BID</button>
+          <!--button class="fs-6 w-25 p-1" id="current" >Limpiar variables</button-->
+          <div id="ulListado"></div>
         </div>
       </div>
         
