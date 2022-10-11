@@ -171,6 +171,18 @@
       border: none;
     }
 
+    #ulListado {
+      margin: auto;
+      /*border-radius: 6px;*/
+      padding: 12px;
+      width: 150px;
+      height: 200px;
+      margin-left: 90px;
+      margin-top: 15px;
+      background-color: coral;
+      border: none;
+    }
+
     #bid:hover {
       color: white;
     }

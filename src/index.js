@@ -1,7 +1,7 @@
 const menu = document.querySelector('.menu');
 const menuMobile = document.querySelector('.mobile-menu');
 const initDB = require('./img/db')
-var priceUpdate = []
+//var priceUpdate = []
 
 
 
@@ -24,7 +24,7 @@ function clickMenu() {
         }
         return acc;
       },[])
-}*/
+}
 function agregarElementos() {
     var lista = document.getElementById("ulListado");
    // priceDuplicate(priceUpdate)
@@ -44,6 +44,7 @@ function updatePrice(price) {
         agregarElementos();
     }
     info.reset();
-}
+}*/
+
 
 initDB();
