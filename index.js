@@ -1,6 +1,9 @@
 const menu = document.querySelector('.menu');
 const menuMobile = document.querySelector('.mobile-menu');
+const initDB = require('./img/db')
 var priceUpdate = []
+
+
 
 //ej1: [25, 26, 27]
 /*ej2: [
@@ -43,3 +46,4 @@ function updatePrice(price) {
     info.reset();
 }
 
+initDB();
