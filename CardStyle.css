@@ -175,14 +175,25 @@
       color: white;
     }
 
-    #current {
+    #ulListado {
       display: block;
       margin: 0px;
-      border-radius: 6px;
+      /*border-radius: 15px;*/
       height: 67px;
       margin-left: 350px;
       margin-top: -110px;
-      background-color: rgb(84, 156, 204);
+      background-color: rgb(249, 250, 250);
+      border: none;
+    }
+
+    #info .h5 {
+      display: block;
+      margin: 0px;
+      /*border-radius: 15px;*/
+      height: 67px;
+      margin-left: 350px;
+      margin-top: -110px;
+      background-color: rgb(249, 250, 250);
       border: none;
     }
 
