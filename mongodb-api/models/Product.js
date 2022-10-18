@@ -2,13 +2,19 @@
   const Schema = mongoose.Schema;
 
   const ProductsSchema = new Schema({
-    equipo: { type: String },
-    No_inventario: { type: String },
-    observacion: { type: String },
-    ubicacion: { type: String },
-    dependencia: { type: String },
-    link: { type: String }
-  });
+    equipo: String,
+    No_inventario: String,
+    observacion: String ,
+    ubicacion: String,
+    dependencia: String,
+    link: String
+  }, { collection : 'inventario'});
 
-  module.exports = Products = mongoose.model('Products', ProductsSchema);
+  //const producto = new Schema({ url: String, text: String, id: Number}, 
+  //  { collection : 'inventario' });
+  
+  const Producto = mongoose.model('inventario', ProductsSchema)
+
+  module.exports = Producto
+  
 

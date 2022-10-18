@@ -1,21 +1,26 @@
 const express = require('express');
-const mongoose = require('mongoose');
-//const bodyParser = require('body-Parser')
+const bodyParser = require('body-Parser')
 const Products = require ("./api/apiproducts");
 
 const app = express();
+const mongoose = require('mongoose');
 
 app.use(express.json());
-
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 app.use("/api/apiproducts", Products);
 
-mongoose.connect(
-    "mongodb+srv://holbieauctions:holbieauctions@cluster0.dous5ey.mongodb.net/test",
-    { UseNewUrlParser: true },
-    (err, res) => {
-        err && console.log("Error conectando la bd");
-        app.listen(4000, () => {
-            console.log("Servidor corriendo en http://localhost:4000");
-        });
-    }
-);
+const usuario = 'holbieauctions'
+const password = 'holbieauctions'
+const db = 'holbieauctions'
+const URI = `mongodb+srv://${usuario}:${password}@cluster0.dous5ey.mongodb.net/${db}?retryWrites=true&w=majority`
+
+mongoose.connect(URI,
+  { useNewUrlParser: true, useUnifiedTopology: true }
+)
+.then(() => console.log('conexión exitosa!!!'))
+.catch(err => console.log('Se capturó el error', err))
+
+app.listen(4000, () => {
+    console.log('escuchando el maravilloso puerto 4000')
+});

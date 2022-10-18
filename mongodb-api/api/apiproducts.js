@@ -9,4 +9,6 @@ router.get("/:id", productController.EncontrarId);
 
 router.post("/add", productController.adProduct);
 
+router.put("/:id", productController.updateSingle);
+
 module.exports = router;

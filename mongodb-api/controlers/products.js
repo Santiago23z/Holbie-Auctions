@@ -25,7 +25,7 @@ function EncontrarId(req, res) {
 }
 
 const adProduct = (req, res) => {
-    let NewProduct = new product ({
+    const NewProduct = new product ({
         equipo: req.body.equipo,
         No_inventario: req.body.No_inventario,
         observacion: req.body.observacion,
@@ -41,6 +41,10 @@ const adProduct = (req, res) => {
             res.status(200).json(producto);
         }
     })
+}
+
+const update = (req, res) => {
+    product
 }
 
 module.exports = { findproducts, EncontrarId, adProduct };
