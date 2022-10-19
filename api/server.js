@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use("/api/apiproducts", Products);
+app.use("/api", Products);
 
 const usuario = 'holbieauctions'
 const password = 'holbieauctions'
