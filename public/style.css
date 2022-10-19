@@ -6,18 +6,22 @@
 
 #navbarT {
     margin-bottom: 0;
-  }
+}
+
 #separacion:hover {
     color: gray;
 }
+
 #separacion {
-/* margin-left: 400px;  */
-    color:  rgb(84, 156, 204);
+    /* margin-left: 400px;  */
+    color: rgb(84, 156, 204);
 }
-#navbarScroll{
+
+#navbarScroll {
     position: absolute;
     right: 600px;
 }
+
 #button:hover {
     color: white;
 }
@@ -27,39 +31,46 @@
 }
 
 
-#button{
+#button {
     height: 40px;
-    
+
     background-color: rgb(120, 178, 216);
 }
 
 #color2 {
-    color:  rgb(84, 156, 204);
+    color: rgb(84, 156, 204);
 }
+
 #color2:hover {
     color: gray;
 }
+
 #color3 {
-     color:  rgb(84, 156, 204);
+    color: rgb(84, 156, 204);
 }
+
 #color3:hover {
     color: gray;
 }
+
 .santi {
     position: relative;
     bottom: 0;
     margin-top: 78px;
     height: 80px;
-    background-color:  rgb(84, 156, 204);
+    background-color: rgb(84, 156, 204);
 }
+
 .imagen {
     height: 60px;
     position: absolute;
     bottom: 7px;
 }
+
 #Parrafo {
     margin-top: 10px;
 }
+
 .insta {
     width: 70px;
     height: 50px;
@@ -67,6 +78,7 @@
     right: 7px;
     top: 16px;
 }
+
 .wpp {
     position: absolute;
     right: 80px;
@@ -74,6 +86,7 @@
     height: 50px;
     top: 16px;
 }
+
 .fb {
     position: absolute;
     right: 140px;
@@ -81,6 +94,7 @@
     height: 70px;
     top: 10px;
 }
+
 .centrar {
     height: 70vh;
     display: block;
@@ -89,102 +103,89 @@
     display: flex;
     justify-content: center;
 }
+
 .centrar {
     display: block;
     margin: auto;
 }
+
 .secion {
-margin-top: 100px;
-margin-left: 60px;
-width: 50%;
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 50%;
 }
 
 #container-products {
     margin-top: 170px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* responsive view*/
 
 @media(max-width: 750px) {
-#imagenP {
-  display: block;
-  margin: auto;
-  width: 600px;
- 
-}
+    #imagenP {
+        display: block;
+        margin: auto;
+        width: 600px;
 
-.santi {
-    position: relative;
-    bottom: 0;
-    height: 80px;
-    background-color:  rgb(84, 156, 204);
-}
+    }
 
-.fb {
-    position: absolute;
-    right: 110px;
-    width: 50px;
-    object-fit: cover;
-    height: 50px;
-    top: 13px;
-}
-.wpp {
-    position: absolute;
-    right: 60px;
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    top: 16px;
-}
+    .santi {
+        position: relative;
+        bottom: 0;
+        height: 80px;
+        background-color: rgb(84, 156, 204);
+    }
 
-.insta {
-    width: 40px;
-    object-fit: cover;
-    height: 40px;
-    position: absolute;
-    right: 7px;
-    top: 16px;
-}
+    .fb {
+        position: absolute;
+        right: 110px;
+        width: 50px;
+        object-fit: cover;
+        height: 50px;
+        top: 13px;
+    }
 
-.secion {
-    margin-top: 100px;
-    margin-left: 60px;
-    width: 100%;
+    .wpp {
+        position: absolute;
+        right: 60px;
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        top: 16px;
+    }
+
+    .insta {
+        width: 40px;
+        object-fit: cover;
+        height: 40px;
+        position: absolute;
+        right: 7px;
+        top: 16px;
+    }
+
+    .secion {
+        margin-top: 100px;
+        margin-left: 60px;
+        width: 100%;
     }
 }
 
 @media(max-width: 750px) {
-#imagenP {
-  display: block;
-  margin: auto;
-  width: 400px;
-}
-#navbarScroll {
-    position: absolute;
-    right: 600px;
-  }
+    #imagenP {
+        display: block;
+        margin: auto;
+        width: 400px;
+    }
 
-.santi {
-    position:absolute;
-    bottom: 0;
-    height: 80px;
-    background-color:  rgb(84, 156, 204);
+    #navbarScroll {
+        position: absolute;
+        right: 600px;
+    }
+
+    .santi {
+        position: absolute;
+        bottom: 0;
+        height: 80px;
+        background-color: rgb(84, 156, 204);
+    }
 }
-} 
