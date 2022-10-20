@@ -9,331 +9,20 @@
   <link rel="stylesheet" href="css/filters.css">
   <link rel="stylesheet" href="css/all.css">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/public/css/products.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <style>
-    /* .menu {
-    display: none;
-  } */
 
-    :root {
-      --white: #FFFFFF;
-      --black: #000000;
-      --very-light-pink: #C7C7C7;
-      --text-input-field: #F7F7F7;
-      --hospital-green: #ACD9B2;
-      --sm: 14px;
-      --md: 16px;
-      --lg: 18px;
-    }
-
-    body {
-      margin: 0;
-      font-family: 'Quicksand', sans-serif;
-    }
-
-    .mobile-menu {
-      padding: 24px;
-    }
-
-    .mobile-menu a {
-      text-decoration: none;
-      color: var(--black);
-      font-weight: bold;
-      /* margin-bottom: 24px; */
-    }
-
-    .mobile-menu ul {
-      padding: 0;
-      margin: 24px 0 0;
-      list-style: none;
-    }
-
-    .mobile-menu ul:nth-child(1) {
-      border-bottom: 1px solid var(--very-light-pink);
-    }
-
-    .mobile-menu ul li {
-      margin-bottom: 24px;
-    }
-
-    .email {
-      font-size: var(--sm);
-      font-weight: 300 !important;
-    }
-
-    .sign-out {
-      font-size: var(--sm);
-      color: var(--hospital-green) !important;
-    }
-
-    @media(max-width: 990px) {
-      .menu {
-        display: block;
-        position: absolute;
-        right: 50px;
-        width: 30px;
-      }
-
-      .mobile-menu {
-        position: absolute;
-        right: 0;
-        border: 2px solid var(--very-light-pink);
-        border-radius: 9px;
-        background-color: #FFFFFF;
-        width: 43%;
-        text-align: end;
-      }
-    }
-
-    @media(max-width: 640px) {
-      .mobile-menu {
-        position: absolute;
-        right: 0;
-        border: 2px solid var(--very-light-pink);
-        border-radius: 9px;
-        background-color: #FFFFFF;
-        width: 100%;
-        height: 50%;
-        text-align: end;
-      }
-    }
-
-    .inactive {
-      display: none;
-    }
-
-    #menuD {
-      position: absolute;
-      right: 600px;
-    }
-
-    #biton {
-      position: absolute;
-      right: 34px;
-      background-color: rgb(84, 156, 204);
-    }
-
-    .menu {
-      display: none;
-    }
-
-    @media (min-width: 1190px) {
-      .button-Biology {
-        /* position:inherit; */
-        /*right: 1100px; */
-        top: 189px;
-        display: block;
-        margin: auto;
-        border: none;
-        font-size: 25px;
-        color: rgb(84, 156, 204);
-        background-color: white;
-      }
-
-      #biology,
-      #hydraulic,
-      #tele,
-      #photo {
-        position: relative;
-        top: 0px;
-      }
-
-      /*section {
-
-  margin-bottom: 20px;
-  min-height: 300px !important;
-  overflow: scroll !important;
-}*/
-
-
-      .santi {
-        position: relative;
-        margin-top: 659px;
-        bottom: 0%;
-      }
-
-      .button-Hydraulic {
-        /* position: absolute; */
-        /* right: 840px; */
-        display: block;
-        margin: auto;
-        top: 189px;
-        border: none;
-        font-size: 25px;
-        color: rgb(84, 156, 204);
-        background-color: white;
-      }
-
-
-      .button-tele {
-        /* position: absolute; */
-        /* right: 510px; */
-        display: block;
-        margin: auto;
-        top: 189px;
-        border: none;
-        font-size: 25px;
-        color: rgb(84, 156, 204);
-        background-color: white;
-      }
-
-
-
-      .button-photo {
-        /* position: absolute;
-  right: 290px; */
-        display: block;
-        margin: auto;
-        top: 189px;
-        border: none;
-        font-size: 25px;
-        color: rgb(84, 156, 204);
-        background-color: white;
-        text-decoration: none;
-      }
-
-
-
-
-      .button-Biology:hover {
-        color: gray;
-      }
-
-
-      .button-tele:hover {
-        color: gray;
-      }
-
-      .button-photo:hover {
-        color: gray;
-      }
-
-      .button-Hydraulic:hover {
-        color: gray;
-      }
-
-      #container-products {
-        position: absolute;
-      }
-
-      #container-products {
-        position: absolute;
-        top: 0;
-        right: 100px;
-      }
-    }
-
-
-
-
-
-
-
-    @media (max-width: 1189px) {
-
-      .button-photo {
-        border: none;
-        font-size: 25px;
-        color: rgb(84, 156, 204);
-        background-color: white;
-        margin-top: 69px;
-        margin-left: 43px;
-        margin-bottom: 20px;
-        text-decoration: none;
-        justify-content: center;
-      }
-
-      .button-tele {
-        border: none;
-        font-size: 25px;
-        color: rgb(84, 156, 204);
-        background-color: white;
-        margin-top: 34px;
-        margin-left: 8px;
-        margin-bottom: 20px;
-        justify-content: center;
-      }
-
-      .button-Hydraulic {
-        border: none;
-        font-size: 25px;
-        color: rgb(84, 156, 204);
-        background-color: white;
-        margin-top: 34px;
-        margin-left: 70px;
-        margin-bottom: 20px;
-        justify-content: center;
-      }
-
-      .button-Biology {
-        border: none;
-        font-size: 25px;
-        color: rgb(84, 156, 204);
-        background-color: white;
-        margin-top: 34px;
-        margin-left: 70px;
-        margin-bottom: 20px;
-        justify-content: center;
-      }
-
-      #container-products {
-        margin-top: 50px;
-      }
-
-      .santi {
-        position: relative;
-        bottom: 0;
-        height: 80px;
-        background-color: rgb(84, 156, 204);
-      }
-    }
-
-
-
-
-
-
-
-    @media (min-width: 990px) {
-      .mobile-menu {
-        display: none;
-      }
-    }
-
-    @media (max-width: 990px) {
-      .menu {
-        display: block;
-        position: absolute;
-        right: 27px;
-        width: 30px;
-        cursor: pointer;
-      }
-
-      .mobile-menu {
-        width: 140px;
-        height: 280px;
-      }
-
-
-    }
-  </style>
   <title>Holbie Auctions</title>
 </head>
 
 <body>
-
-
-
-
-  <!-- navbar -->
+  <!-- Navbar menu -->
   <nav class="navbar navbar-expand-lg bg-light" id="navbart">
     <img src="./images/icon_menu.svg" class="menu" alt="">
     <div class="container-fluid">
       <img src="./images/holbieauctions-removebg-preview-removebg-preview.png" class="hola" alt="">
       <a class="navbar-brand" href="#"></a>
-
-
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menuD">
@@ -349,14 +38,12 @@
             <a class="nav-link fs-5 me-4" href="/public/about_us.html" id="color3">About us</a>
           </li>
         </ul>
-
         <button class="btn btn-outline-dark" id="biton" type="button">Login</button>
-
       </div>
     </div>
   </nav>
 
-
+  <!-- Mobile menu -->
   <div class="mobile-menu inactive">
     <ul>
       <li>
@@ -374,36 +61,26 @@
     </ul>
   </div>
 
-
-
-
-
-
-
-
-  <!-- <div class="auctions"> -->
-  <!--h1>Auctions online</h1-->
-  <!--article-->
+  <!-- Container products -->
   <div class="container d-flex justify-content-center" id="container-products">
     <div class="row row-cols-auto">
       <div class="col" id="biology">
         <button class="button-Biology mb-4">Biology</button>
         <div class="card" style="width: 15rem;">
-
           <div class="card-header">
             <h6 class="d-flex justify-content-center mt-1">
               <strong>Balanza Mecánica</strong>
             </h6>
           </div>
-          <img src="https://basculasyequiposdealimentos.com/wp-content/uploads/2020/02/Balanza-mec%C3%A1nica-BBG-ref-NS.png" class="card-img-top" alt="...">
+          <img
+            src="https://basculasyequiposdealimentos.com/wp-content/uploads/2020/02/Balanza-mec%C3%A1nica-BBG-ref-NS.png"
+            class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">Initial Price: <strong>$65.000</strong></p>
             <a href="/HomePage.html" class="btn btn-primary d-flex justify-content-center">See more</a>
           </div>
         </div>
       </div>
-      <!--/article-->
-      <!--article-->
       <div class="col" id="hydraulic">
         <button class="button-Hydraulic mb-4">Hydraulic</button>
         <div class="card" style="width: 15rem;">
@@ -421,8 +98,6 @@
           </div>
         </div>
       </div>
-      <!--/article-->
-      <!--article-->
       <div class="col" id="tele">
         <button class="button-tele mb-4">Telecommunications</button>
         <div class="card" style="width: 15rem;">
@@ -433,14 +108,14 @@
               </strong>
             </h6>
           </div>
-          <img src="https://www.energiasolar.com.co/wp-content/uploads/2020/06/1MULTIMETRO-UNIT-33C.png" class="card-img-top" alt="...">
+          <img src="https://www.energiasolar.com.co/wp-content/uploads/2020/06/1MULTIMETRO-UNIT-33C.png"
+            class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">Initial Price: <strong>$95.000</strong></p>
             <a href="#" class="btn btn-primary d-flex justify-content-center">See more</a>
           </div>
         </div>
       </div>
-      <!--/article-->
       <div class="col" id="photo">
         <a class="button-photo mb-4" href="./Fotografia.html">Photography</a>
         <div class="card" style="width: 15rem;">
@@ -451,7 +126,8 @@
               </strong>
             </h6>
           </div>
-          <img src="https://simaro.co/media/catalog/product/V/i/Vivitar-SF-3000-Digital-Flash-Esclavo-Y-Soporte_3.jpeg" class="card-img-top" alt="...">
+          <img src="https://simaro.co/media/catalog/product/V/i/Vivitar-SF-3000-Digital-Flash-Esclavo-Y-Soporte_3.jpeg"
+            class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-text">Initial Price: <strong>$115.000</strong></p>
             <a href="#" class="btn btn-primary d-flex justify-content-center">See more</a>
@@ -459,19 +135,9 @@
         </div>
       </div>
     </div>
-
-
-
-
   </div>
 
-
-
-
-
-
-
-
+  <!-- Links to social media -->
   <footer class="container-fluid  santi">
     <img src="./images/holbieauctions-removebg-preview-removebg-preview.png" class="imagen" alt="">
 
@@ -493,7 +159,12 @@
       <img src="./images/f79920f4cb34986684e29df42ec0cebe-removebg-preview.png" class="fb" alt="">
     </a>
   </footer>
-  <script src="../src/index.js"></script>
 
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="../src/index.js"></script>
 </body>
+
 </html>
