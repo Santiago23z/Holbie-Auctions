@@ -11,14 +11,15 @@
     padding: 0;
 }
 
-.auctions > h1 {
+.auctions>h1 {
     font-size: 30px;
     padding-left: 20px;
     padding-top: 20px;
     margin-bottom: 0px;
     flex: 0 1 100%;
 }
-.auctions > article {
+
+.auctions>article {
     width: 390px;
     padding: 20px 20px 20px 20px;
     margin: 20px 20px 20px 20px;
@@ -30,9 +31,8 @@
     position: relative;
 }
 
-.auctions > article > h2 {
+.auctions>article>h2 {
     font-size: 30px;
     margin: 0 0 0 0;
     align-self: center;
 }
-

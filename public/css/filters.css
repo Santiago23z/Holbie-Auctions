@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-section.filters > button{
+section.filters>button {
     font-size: 18px;
     color: white;
     background-color: lightseagreen;
@@ -21,11 +21,12 @@ section.filters > button{
     opacity: 1;
 }
 
-section.filters > button:hover {
+section.filters>button:hover {
     opacity: 0.9;
 }
 
-.categories, .amenities {
+.categories,
+.amenities {
     height: 100%;
     width: 40%;
     padding-left: 10px;
@@ -34,12 +35,15 @@ section.filters > button:hover {
 .categories {
     border-right: 1px solid #DDDDDD;
 }
-.categories > h3, .amenities > h3 {
+
+.categories>h3,
+.amenities>h3 {
     font-weight: 600;
     margin: 25px 0 5px 0;
 }
 
-.categories > h4, .amenities > h4 {
+.categories>h4,
+.amenities>h4 {
     font-weight: 400;
     font-size: 14px;
     margin: 0 0 5px 0;
@@ -58,14 +62,16 @@ section.filters > button:hover {
     margin-top: 25px;
 }
 
-.popover, .popover ul {
+.popover,
+.popover ul {
     list-style-type: none;
 }
-.categories:hover > .popover {
+
+.categories:hover>.popover {
     display: block;
 }
 
-.amenities:hover > .popover {
+.amenities:hover>.popover {
     display: block;
 }
 
@@ -74,18 +80,20 @@ section.filters > button:hover {
     margin-bottom: 5px;
 }
 
-.categories > .popover > li {
+.categories>.popover>li {
     margin-bottom: 30px;
     margin-left: 30px;
 }
-.categories > .popover > li > ul {
+
+.categories>.popover>li>ul {
     padding-left: 20px;
 }
-.categories > .popover > li > ul > li {
+
+.categories>.popover>li>ul>li {
     margin-bottom: 10px;
 }
 
-.amenities > .popover > li {
+.amenities>.popover>li {
     margin-left: 50px;
     margin-bottom: 10px;
 }

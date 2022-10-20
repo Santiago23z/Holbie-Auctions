@@ -1,135 +1,156 @@
 .hola {
-        width: 140px;
-        height: 70px;
-    
-    }
-    #separacion:hover {
-        color: gray;
-    }
-    #separacion {
-        margin-left: 400px;
-        color:  rgb(84, 156, 204);
-    }
-    #buttons:hover {
-        color: white;
-    }
-    #buttons{
-        height: 40px;
-        position: relative;
-        left: 370px;
-        top: 5px;
-        bottom: 2px;
-        border-radius: 5px;
-        background-color: rgb(84, 156, 204);
-        border: 2px;
-        padding: 7px 20px 20px 20px;
-    }
-    #color2 {
-        color:  rgb(84, 156, 204);
-    }
-    #color2:hover {
-        color: gray;
-    }
-    #color3 {
-         color:  rgb(84, 156, 204);
-    }
-    #color3:hover {
-        color: gray;
-    }
-    .santi {
-        position: absolute;
-        bottom: 0;
-        height: 80px;
-        background-color:  rgb(84, 156, 204);
-    }
-    .imagen {
-        height: 60px;
-        position: absolute;
-        bottom: 7px;
-    }
-    #Parrafo {
-        margin-top: 10px;
-    }
-    .insta {
-        width: 70px;
-        height: 50px;
-        position: absolute;
-        right: 7px;
-        top: 16px;
-    }
-    .wpp {
-        position: absolute;
-        right: 80px;
-        width: 50px;
-        height: 50px;
-        top: 16px;
-    }
-    .fb {
-        position: absolute;
-        right: 140px;
-        width: 70px;
-        height: 70px;
-        top: 10px;
-    }
-    .centrar {
-        height: 70vh;
-        display: block;
-        width: 700px;
-        object-fit: cover;
-        display: flex;
-        justify-content: center;
-    }
-    .centrar {
-        display: block;
-        margin: auto;
-    }
-    #canon {
-        height: 70vh;
-    }
+  width: 140px;
+  height: 70px;
 
-    .holberton {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-    #carouselExampleControls {
-        min-height: calc(100vh - 100px - 300px);
-    }
-   #text {
-    color:  rgb(84, 156, 204);
-   padding-left: 105px;
-   }
-   #navbarT {
-    margin-bottom: 80px;
-   }
+}
 
-   .portada {
-    position: absolute;
-    right: 139px;
-    top: 230px;
-    height: 400px;
-    width: 840px;
-   }
+#separacion:hover {
+  color: gray;
+}
 
-   #auctions {
-    margin-top: 0;
-    padding-left: 105px;
-   }
+#separacion {
+  margin-left: 400px;
+  color: rgb(84, 156, 204);
+}
 
-    #auctions1 {
-    padding-left: 140px;
-   }
-   #auctions2 {
-    padding-left: 90px;
+#buttons:hover {
+  color: white;
+}
 
-   }
+#buttons {
+  height: 40px;
+  position: relative;
+  left: 370px;
+  top: 5px;
+  bottom: 2px;
+  border-radius: 5px;
+  background-color: rgb(84, 156, 204);
+  border: 2px;
+  padding: 7px 20px 20px 20px;
+}
 
-   #camarita {
-    margin-left: 300px;
-    margin-top: 0px;
-   }
+#color2 {
+  color: rgb(84, 156, 204);
+}
 
-   /* .card-title {
+#color2:hover {
+  color: gray;
+}
+
+#color3 {
+  color: rgb(84, 156, 204);
+}
+
+#color3:hover {
+  color: gray;
+}
+
+.santi {
+  position: absolute;
+  bottom: 0;
+  height: 80px;
+  background-color: rgb(84, 156, 204);
+}
+
+.imagen {
+  height: 60px;
+  position: absolute;
+  bottom: 7px;
+}
+
+#Parrafo {
+  margin-top: 10px;
+}
+
+.insta {
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  right: 7px;
+  top: 16px;
+}
+
+.wpp {
+  position: absolute;
+  right: 80px;
+  width: 50px;
+  height: 50px;
+  top: 16px;
+}
+
+.fb {
+  position: absolute;
+  right: 140px;
+  width: 70px;
+  height: 70px;
+  top: 10px;
+}
+
+.centrar {
+  height: 70vh;
+  display: block;
+  width: 700px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.centrar {
+  display: block;
+  margin: auto;
+}
+
+#canon {
+  height: 70vh;
+}
+
+.holberton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#carouselExampleControls {
+  min-height: calc(100vh - 100px - 300px);
+}
+
+#text {
+  color: rgb(84, 156, 204);
+  padding-left: 105px;
+}
+
+#navbarT {
+  margin-bottom: 80px;
+}
+
+.portada {
+  position: absolute;
+  right: 139px;
+  top: 230px;
+  height: 400px;
+  width: 840px;
+}
+
+#auctions {
+  margin-top: 0;
+  padding-left: 105px;
+}
+
+#auctions1 {
+  padding-left: 140px;
+}
+
+#auctions2 {
+  padding-left: 90px;
+
+}
+
+#camarita {
+  margin-left: 300px;
+  margin-top: 0px;
+}
+
+/* .card-title {
     position: absolute;
     right: 0;
     top: 210px;
@@ -143,217 +164,228 @@
     left: 980px;
    }  */
 
-   #títuloProducto {
-    position: absolute;
-    top: 120px;
-    left: 580px;
-    }
+#títuloProducto {
+  position: absolute;
+  top: 120px;
+  left: 580px;
+}
 
-   .ingreseValor {
-    
-    margin-top: 60px;
-    margin-left: 40px;
-    padding: 8px;
-    border-radius: 6px;
-    background-color: rgb(197, 194, 194);
-    border: none;
-    }
+.ingreseValor {
 
-    #bid {
-      display: block;
-      margin: auto;
-      border-radius: 6px;
-      padding: 12px;
-      width: 120px;
-      margin-left: 90px;
-      margin-top: 15px;
-      background-color: rgb(84, 156, 204);
-      border: none;
-    }
+  margin-top: 60px;
+  margin-left: 40px;
+  padding: 8px;
+  border-radius: 6px;
+  background-color: rgb(197, 194, 194);
+  border: none;
+}
 
-    #ulListado {
-      margin: auto;
-      /*border-radius: 6px;*/
-      padding: 12px;
-      width: 150px;
-      height: 200px;
-      margin-left: 90px;
-      margin-top: 15px;
-      background-color: coral;
-      border: none;
-    }
+#bid {
+  display: block;
+  margin: auto;
+  border-radius: 6px;
+  padding: 12px;
+  width: 120px;
+  margin-left: 90px;
+  margin-top: 15px;
+  background-color: rgb(84, 156, 204);
+  border: none;
+}
 
-    #bid:hover {
-      color: white;
-    }
+#ulListado {
+  margin: auto;
+  /*border-radius: 6px;*/
+  padding: 12px;
+  width: 150px;
+  height: 200px;
+  margin-left: 90px;
+  margin-top: 15px;
+  background-color: coral;
+  border: none;
+}
 
-    #ulListado {
-      display: block;
-      margin: 0px;
-      /*border-radius: 15px;*/
-      height: 67px;
-      margin-left: 350px;
-      margin-top: -110px;
-      background-color: rgb(249, 250, 250);
-      border: none;
-    }
+#bid:hover {
+  color: white;
+}
 
-    #info .h5 {
-      display: block;
-      margin: 0px;
-      /*border-radius: 15px;*/
-      height: 67px;
-      margin-left: 350px;
-      margin-top: -110px;
-      background-color: rgb(249, 250, 250);
-      border: none;
-    }
+#ulListado {
+  display: block;
+  margin: 0px;
+  /*border-radius: 15px;*/
+  height: 67px;
+  margin-left: 350px;
+  margin-top: -110px;
+  background-color: rgb(249, 250, 250);
+  border: none;
+}
 
-    #current:hover {
-      color: white;
-    }
+#info .h5 {
+  display: block;
+  margin: 0px;
+  /*border-radius: 15px;*/
+  height: 67px;
+  margin-left: 350px;
+  margin-top: -110px;
+  background-color: rgb(249, 250, 250);
+  border: none;
+}
+
+#current:hover {
+  color: white;
+}
 
 
 
 @media (min-width: 1115px) {
-    #camarita {
-        position: fixed;
-        top: 150px;
-        right: 800px;
-        width: 500px;
-    }
-    #títuloProducto{
-        position: absolute;
-        top: 60px;
-    }
+  #camarita {
+    position: fixed;
+    top: 150px;
+    right: 800px;
+    width: 500px;
+  }
 
-    .santi {
-        position: fixed;
-        bottom: 0;
-        height: 80px;
-        background-color:  rgb(84, 156, 204);
-    }
+  #títuloProducto {
+    position: absolute;
+    top: 60px;
+  }
+
+  .santi {
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    background-color: rgb(84, 156, 204);
+  }
 }
 
-    @media (max-width: 1114px){
-        #camarita {
-            display: block;
-            margin: auto;
-            width: 400px;
-        
-        }
-        #títuloProducto {
-            display: block;
-            margin: auto;
-            margin-top: 270px;
-            margin-left: -600px;
-            }
+@media (max-width: 1114px) {
+  #camarita {
+    display: block;
+    margin: auto;
+    width: 400px;
 
-        .santi {
-            position: relative;
-            margin-top: 350px;
-            bottom: 0;
-        }
-    }
+  }
 
-    :root {
-        --white: #FFFFFF;
-        --black: #000000;
-        --very-light-pink: #C7C7C7;
-        --text-input-field: #F7F7F7;
-        --hospital-green: #ACD9B2;
-        --sm: 14px;
-        --md: 16px;
-        --lg: 18px;
-      }
-      body {
-        margin: 0;
-        font-family: 'Quicksand', sans-serif;
-      }
-      .mobile-menu {
-        padding: 24px;
-      }
-      .mobile-menu a {
-        text-decoration: none;
-        color: var(--black);
-        font-weight: bold;
-        /* margin-bottom: 24px; */
-      }
-      .mobile-menu ul {
-        padding: 0;
-        margin: 24px 0 0;
-        list-style: none;
-      }
-      .mobile-menu ul:nth-child(1) {
-        border-bottom: 1px solid var(--very-light-pink);
-      }
-      .mobile-menu ul li {
-        margin-bottom: 24px;
-      }
-      .email {
-        font-size: var(--sm);
-        font-weight: 300 !important;
-      }
-      .sign-out {
-        font-size: var(--sm);
-        color: var(--hospital-green) !important;
-      }
-    @media(max-width: 990px) {
-      .menu {
-      display: block;
-      position: absolute;
-      right: 50px;
-      width: 30px;
-    }
-  
-    .mobile-menu {
-      position: absolute;
-      right: 0;
-      border: 2px solid var(--very-light-pink);
-      border-radius: 9px;
-      background-color: #FFFFFF;
-      width: 43%;
-      text-align: end;
-    }
-    }
-  
-    @media(max-width: 640px) {
-      .mobile-menu {
-      position: absolute;
-      right: 0;
-      border: 2px solid var(--very-light-pink);
-      border-radius: 9px;
-      background-color: #FFFFFF;
-      width: 100%;
-      height: 50%;
-      text-align: end;
-    }
-    } 
-  
-    .inactive {
-      display: none;
-    }
-  
-    #menuD {
-      position: absolute;
-      right: 600px;
-    }
-  
-    #biton {
-      position: absolute;
-      right: 34px;
-      background-color:  rgb(84, 156, 204);
-    } 
-  
-    .menu {
-      display: none;
-    }
-  
-  @media (min-width: 1190px) {
-    .button-Biology {
+  #títuloProducto {
+    display: block;
+    margin: auto;
+    margin-top: 270px;
+    margin-left: -600px;
+  }
+
+  .santi {
+    position: relative;
+    margin-top: 350px;
+    bottom: 0;
+  }
+}
+
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --very-light-pink: #C7C7C7;
+  --text-input-field: #F7F7F7;
+  --hospital-green: #ACD9B2;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.mobile-menu {
+  padding: 24px;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: bold;
+  /* margin-bottom: 24px; */
+}
+
+.mobile-menu ul {
+  padding: 0;
+  margin: 24px 0 0;
+  list-style: none;
+}
+
+.mobile-menu ul:nth-child(1) {
+  border-bottom: 1px solid var(--very-light-pink);
+}
+
+.mobile-menu ul li {
+  margin-bottom: 24px;
+}
+
+.email {
+  font-size: var(--sm);
+  font-weight: 300 !important;
+}
+
+.sign-out {
+  font-size: var(--sm);
+  color: var(--hospital-green) !important;
+}
+
+@media(max-width: 990px) {
+  .menu {
+    display: block;
+    position: absolute;
+    right: 50px;
+    width: 30px;
+  }
+
+  .mobile-menu {
+    position: absolute;
+    right: 0;
+    border: 2px solid var(--very-light-pink);
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    width: 43%;
+    text-align: end;
+  }
+}
+
+@media(max-width: 640px) {
+  .mobile-menu {
+    position: absolute;
+    right: 0;
+    border: 2px solid var(--very-light-pink);
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 50%;
+    text-align: end;
+  }
+}
+
+.inactive {
+  display: none;
+}
+
+#menuD {
+  position: absolute;
+  right: 600px;
+}
+
+#biton {
+  position: absolute;
+  right: 34px;
+  background-color: rgb(84, 156, 204);
+}
+
+.menu {
+  display: none;
+}
+
+@media (min-width: 1190px) {
+  .button-Biology {
     /* position:inherit; */
     /*right: 1100px; */
-    top: 189px; 
+    top: 189px;
     display: block;
     margin: auto;
     border: none;
@@ -361,7 +393,7 @@
     color: rgb(84, 156, 204);
     background-color: white;
   }
-  
+
   #biology,
   #hydraulic,
   #tele,
@@ -369,22 +401,22 @@
     position: relative;
     top: 0px;
   }
-  
+
   /*section {
   
     margin-bottom: 20px;
     min-height: 300px !important;
     overflow: scroll !important;
   }*/
-  
-  
-  .santi{
+
+
+  .santi {
     position: relative;
     margin-top: 659px;
     bottom: 0%;
   }
-  
-   .button-Hydraulic {
+
+  .button-Hydraulic {
     /* position: absolute; */
     /* right: 840px; */
     display: block;
@@ -394,10 +426,10 @@
     font-size: 25px;
     color: rgb(84, 156, 204);
     background-color: white;
-   } 
-  
-  
-   .button-tele {
+  }
+
+
+  .button-tele {
     /* position: absolute; */
     /* right: 510px; */
     display: block;
@@ -407,11 +439,11 @@
     font-size: 25px;
     color: rgb(84, 156, 204);
     background-color: white;
-   }
-  
-  
-  
-   .button-photo {
+  }
+
+
+
+  .button-photo {
     /* position: absolute;
     right: 290px; */
     display: block;
@@ -422,128 +454,129 @@
     color: rgb(84, 156, 204);
     background-color: white;
     text-decoration: none;
-   }  
-  
-  
-  
-  
-   .button-Biology:hover {
+  }
+
+
+
+
+  .button-Biology:hover {
     color: gray;
-   }
-  
-  
-   .button-tele:hover {
+  }
+
+
+  .button-tele:hover {
     color: gray;
-   }
-  
-   .button-photo:hover {
+  }
+
+  .button-photo:hover {
     color: gray;
-   }
-  
-   .button-Hydraulic:hover {
+  }
+
+  .button-Hydraulic:hover {
     color: gray;
-   }
-  
-   #container-products {
+  }
+
+  #container-products {
     position: absolute;
-   }
-  
-   #container-products {
+  }
+
+  #container-products {
     position: absolute;
     top: 0;
     right: 100px;
-   }
   }
-  
-  
-  
-  
-  
-  
-  
-   @media (max-width: 1189px) {
-  
-    .button-photo {
+}
+
+
+
+
+
+
+
+@media (max-width: 1189px) {
+
+  .button-photo {
     border: none;
-    font-size: 25px; 
-    color: rgb(84, 156, 204); 
-    background-color: white; 
+    font-size: 25px;
+    color: rgb(84, 156, 204);
+    background-color: white;
     margin-top: 69px;
     margin-left: 43px;
     margin-bottom: 20px;
     text-decoration: none;
     justify-content: center;
-   }
-  
-   .button-tele {
+  }
+
+  .button-tele {
     border: none;
-    font-size: 25px; 
-    color: rgb(84, 156, 204); 
-    background-color: white; 
+    font-size: 25px;
+    color: rgb(84, 156, 204);
+    background-color: white;
     margin-top: 34px;
     margin-left: 8px;
     margin-bottom: 20px;
     justify-content: center;
-   }
-  
-   .button-Hydraulic {
-    border: none;
-    font-size: 25px; 
-    color: rgb(84, 156, 204); 
-    background-color: white; 
-    margin-top: 34px;
-    margin-left: 70px;
-    margin-bottom: 20px;
-    justify-content: center;
-   }
-  
-   .button-Biology {
-    border: none;
-    font-size: 25px; 
-    color: rgb(84, 156, 204); 
-    background-color: white; 
-    margin-top: 34px;
-    margin-left: 70px;
-    margin-bottom: 20px;
-    justify-content: center;
-   }
-  
-   #container-products {
-      margin-top: 50px;
   }
-  
+
+  .button-Hydraulic {
+    border: none;
+    font-size: 25px;
+    color: rgb(84, 156, 204);
+    background-color: white;
+    margin-top: 34px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .button-Biology {
+    border: none;
+    font-size: 25px;
+    color: rgb(84, 156, 204);
+    background-color: white;
+    margin-top: 34px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  #container-products {
+    margin-top: 50px;
+  }
+
   .santi {
-      position: relative;
-      bottom: 0;
-      height: 80px;
-      background-color:  rgb(84, 156, 204);
+    position: relative;
+    bottom: 0;
+    height: 80px;
+    background-color: rgb(84, 156, 204);
   }
-   }
-  
-  
-  
-  
-  
-  
-  
-    @media (min-width: 990px) {
-      .mobile-menu{
-      display: none; 
-    }
-    }
-  
-    @media (max-width: 990px) {
-    .menu {
-      display: block;
-      position: absolute;
-      right: 27px;
-      width: 30px;
-      cursor: pointer;
-    }
-    .mobile-menu {
-      width: 140px;
-      height: 280px;
-    }
-    
-  
-    }
+}
+
+
+
+
+
+
+
+@media (min-width: 990px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  .menu {
+    display: block;
+    position: absolute;
+    right: 27px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .mobile-menu {
+    width: 140px;
+    height: 280px;
+  }
+
+
+}
