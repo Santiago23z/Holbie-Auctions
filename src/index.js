@@ -17,9 +17,9 @@ function getProducts() {
     Http.send();
     Http.onreadystatechange = (e) => {
     console.log(Http.responseText)
-    // document.querySelector('body').innerHTML = Http.responseText;
-    // document.querySelector('body').innerHTML = `
-    //     <h1>${Http.response[0]['DEPENDENCIA']}</h1>`
+    //document.querySelector('body').innerHTML = Http.responseText;
+    //document.querySelector('body').innerHTML = `
+    //    <h1>${Http.response[0]['DEPENDENCIA']}</h1>`
 }
 }
 
