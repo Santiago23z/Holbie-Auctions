@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="" href="./css/CardStyle.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Holbie Auctions</title>
+</head>
+
+<body>
+  <!-- Navbar menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarT">
+    <img src="./images/icon_menu.svg" class="menu" alt="">
+    <div class="container-fluid h-100">
+      <img src="./images/holbieauctions-removebg-preview-removebg-preview.png" class="hola" alt="">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fs-5" id="separacion" id="color1" aria-current="page"
+              href="/public/HomePage.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-5 fs-5" id="color2" href="/public/products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  ms-5 fs-5" href="/public/about_us.html" id="color3" aria-disabled="true">About us</a>
+          </li>
+          <button id="buttons">Login</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu inactive">
+    <ul>
+      <li>
+        <a href="/public/HomePage.html">Home</a>
+      </li>
+      <li>
+        <a href="/public/products.html">Products</a>
+      </li>
+      <li>
+        <a href="/public/about_us.html">About us</a>
+      </li>
+    </ul>
+    <ul>
+      <button class="btn btn-outline-info me-0" type="button" id="biton mobil-biton">Login</button>
+    </ul>
+  </div>
+
+  <!-- Container tarjeta unica -->
+  <div class="card" id="camarita">
+    <img src="https://fabriles.com.co/wp-content/uploads/2021/08/Manometro-150PSI-1.jpg"
+      class="card-img-top" id="camaraC" alt="...">
+    <div class="card-title card-title1" id="títuloProducto">
+      <h2 class="d-flex justify-content-center">
+        PRESSURE
+        
+        <h2 class="d-flex justify-content-center">GAUGE</h2>
+      </h2>
+      <div id="info">
+        <span class="d-flex justify-content-center mt-lg-5 fs-4">Initial Price at $45.000</span>
+        <input type="text" name="Here" placeholder="Your price here $" class="ingreseValor" id="newOffer">
+        <button id="bid" class="fs-5" onclick="updatePrice(newOffer)">BID</button>
+        <div id="ulListado"></div>
+      </div>
+    </div>
+    <div>
+        <a href="./Hidraulica.html" class="btn btn-secondary d-flex justify-content-center">Back</a>
+    </div>
+  </div>
+
+  <!-- Links to social media -->
+  <footer class="container-fluid  santi">
+    <img src="./images/holbieauctions-removebg-preview-removebg-preview.png" class="imagen" alt="">
+    <div>
+      <p class="holberton text-center"></p>
+    </div>
+    <a href="https://www.instagram.com/holbieauctions/?next=%2F">
+      <img src="./images/2437730f7e3a5705e205e67fa2cd1020-removebg-preview.png" class="insta" alt="">
+    </a>
+    <a href="">
+      <img src="./images/580b57fcd9996e24bc43c543.png" class="wpp" alt="">
+    </a>
+    <a href="">
+      <img src="./images/f79920f4cb34986684e29df42ec0cebe-removebg-preview.png" class="fb" alt="">
+    </a>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="../src/ofertar.js"></script>
+</body>
+
+
+</html>
