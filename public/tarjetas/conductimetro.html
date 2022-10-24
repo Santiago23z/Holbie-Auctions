@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="" href="../css/CardStyle.css">
+    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/filters.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/categorias.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Holbie Auctions</title>
+</head>
+
+<body>
+    <!-- Navbar menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarT">
+        <img src="./images/icon_menu.svg" class="menu" alt="">
+        <div class="container-fluid h-100">
+            <img src="../images/holbieauctions-removebg-preview-removebg-preview.png" class="hola" alt="">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5" id="separacion" id="color1" aria-current="page"
+                            href="/public/HomePage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-5 fs-5" id="color2" href="/public/products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  ms-5 fs-5" href="/public/about_us.html" id="color3"
+                            aria-disabled="true">About us</a>
+                    </li>
+                    <button id="buttons">Login</button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu inactive">
+        <ul>
+            <li>
+                <a href="/public/HomePage.html">Home</a>
+            </li>
+            <li>
+                <a href="/public/products.html">Products</a>
+            </li>
+            <li>
+                <a href="/public/about_us.html">About us</a>
+            </li>
+        </ul>
+        <ul>
+            <button class="btn btn-outline-info me-0" type="button" id="biton mobil-biton">Login</button>
+        </ul>
+    </div>
+
+    <!-- Container tarjeta unica -->
+    <div class="card" id="camarita">
+        <img src="data:image/jpeg;base64,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"
+            class="card-img-top" id="camaraC" alt="...">
+        <div class="card-title card-title1" id="títuloProducto">
+            <h2 class="d-flex justify-content-center">CONDUCTIMETER
+                <h2 class="d-flex justify-content-center">SCHOTT</h2>
+            </h2>
+            <div id="info">
+                <span class="d-flex justify-content-center mt-lg-5 fs-4">Initial Price at $240.000</span>
+                <input type="text" name="Here" placeholder="Your price here $" class="ingreseValor" id="newOffer">
+                <button id="bid" class="fs-5" onclick="updatePrice(newOffer)">BID</button>
+                <div id="ulListado"></div>
+            </div>
+        </div>
+        <div>
+            <a href="/public/Biologia.html" class="btn btn-secondary d-flex justify-content-center">Back</a>
+        </div>
+    </div>
+
+    <!-- Links to social media -->
+    <footer class="container-fluid  santi">
+        <img src="../images/holbieauctions-removebg-preview-removebg-preview.png" class="imagen" alt="">
+        <div>
+            <p class="holberton text-center"></p>
+        </div>
+        <a href="https://www.instagram.com/holbieauctions/?next=%2F">
+            <img src="../images/2437730f7e3a5705e205e67fa2cd1020-removebg-preview.png" class="insta" alt="">
+        </a>
+        <a href="">
+            <img src="../images/580b57fcd9996e24bc43c543.png" class="wpp" alt="">
+        </a>
+        <a href="">
+            <img src="../images/f79920f4cb34986684e29df42ec0cebe-removebg-preview.png" class="fb" alt="">
+        </a>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="/src/ofertar.js"></script>
+</body>
+
+
+</html>
