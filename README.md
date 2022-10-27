@@ -39,7 +39,7 @@ Holbie auctions..... A different way of auctions in the market!!!!!
 
 Thanks to everyone!
 
-#Authors
+# Authors
 
 ***Diana Marcela Banguera*** @Diana Banguera  <a href="https://www.linkedin.com/in/dianamarcelabanguera/" rel= "nofollow"> <img width="18px" align="center"
 src="/icons/linkedn.svg" style="max-width: 100%;"> <a href="https://github.com/dianabanguera"> <img width="18px" align="center" src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg" style="max-width: 100%;"></a>
