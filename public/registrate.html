@@ -28,14 +28,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menuD">
                     <li class="nav-item">
-                        <a class="nav-link active fs-5 me-4" aria-current="page" href="#" id="separacion"
+                        <a class="nav-link active fs-5 me-4" aria-current="page" href="../public/HomePage.html" id="separacion"
                             id="color1">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-5 me-4" href="/public/products.html" id="color2">Products</a>
+                        <a class="nav-link fs-5 me-4" href="../public/products.html" id="color2">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-5 me-4" href="/public/about_us.html" id="color3">About us</a>
+                        <a class="nav-link fs-5 me-4" href="../public/about_us.html" id="color3">About us</a>
                     </li>
                 </ul>
                 <button class="btn btn-outline-dark" id="biton" type="button">Login</button>
@@ -47,7 +47,7 @@
     <div class="mobile-menu inactive">
         <ul>
             <li>
-                <a href="/public/HomePage.html">Home</a>
+                <a href="../public/HomePage.html">Home</a>
             </li>
             <li>
                 <a href="/public/products.html">Products</a>
@@ -61,10 +61,21 @@
         </ul>
     </div>
 
+    <!--Ventana Emergente-->
+    <div class="ventana" id="vent">
+
+        <div id="cerrar">
+            <a href="javascript:cerrar()">
+                <img src="../Holbie Auctions_files/cerrar.jpg">
+            </a>
+        </div>
+        Usuario Registrado con Éxito
+    </div>
+
     <!-- Container register page -->
     <form class="formulario">
 
-        <h1 class="d-flex justify-content-center mt-1 text-info">Registrate</h1>
+        <h1 class="d-flex justify-content-center mt-1 text-info">Sign Up</h1>
         <div class="contenedor">
 
             <div class="input-contenedor">
@@ -84,9 +95,9 @@
                 <input type="password" placeholder="Contraseña">
 
             </div>
-            <input type="submit" value="Registrate" class="button">
+            <a href="javascript:abrir()" class="btn btn-primary d-flex justify-content-center">Sign up</a>
             <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
-            <p>¿Ya tienes una cuenta?<a class="link" href="/public/login.html">Iniciar Sesion</a></p>
+            <p>¿Ya tienes una cuenta?<a class="link" href="/public/login.html">Login</a></p>
         </div>
     </form>
 
@@ -114,6 +125,15 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="../src/index.js"></script>
+    <script>
+        function abrir() {
+            document.getElementById("vent").style.display="block";
+        }
+
+        function cerrar() {
+            document.getElementById("vent").style.display="none";
+        }
+    </script>
 </body>
 
 
