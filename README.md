@@ -38,3 +38,11 @@ The technologies we used for this proyect was: ........
 Holbie auctions..... A different way of auctions in the market!!!!!
 
 Thanks to everyone!
+
+#Authors
+
+***Marcela Banguera** @DMarceliita <a href="https://twitter.com/alejuran" rel= "nofollow"> <img width="18px" align="center"
+src="blob:https://boxicons.com/e6b3d925-eea0-49b2-81b8-aceca231853d" style="max-width: 100%;"> <a href="https://github.com/alejuran"> <img width="18px" align="center" src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg" style="max-width: 100%;"></a>
+
+***Santiago Zapata*** @Santiag72319908 <a href="https://twitter.com/Santiag72319908" rel= "nofollow"> <img width="18px" align="center"
+src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter.svg" style="max-width: 100%;"> <a href="https://github.com/Santiago23z"> <img width="18px" align="center" src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg" style="max-width: 100%;"></a>
