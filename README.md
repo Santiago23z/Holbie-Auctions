@@ -41,10 +41,10 @@ Thanks to everyone!
 
 #Authors
 
-***Santiago Zapata*** @Diana Banguera  <a href="https://www.linkedin.com/in/dianamarcelabanguera/" rel= "nofollow"> <img width="18px" align="center"
+***Diana Marcela Banguera*** @Diana Banguera  <a href="https://www.linkedin.com/in/dianamarcelabanguera/" rel= "nofollow"> <img width="18px" align="center"
 src="/icons/linkedn.svg" style="max-width: 100%;"> <a href="https://github.com/dianabanguera"> <img width="18px" align="center" src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg" style="max-width: 100%;"></a>
 
-***Santiago Zapata*** @Carlos berrio <a href="https://www.linkedin.com/in/carlos-berrio-12580ba5/" rel= "nofollow"> <img width="18px" align="center"
+***Carlos Berrio*** @Carlos berrio <a href="https://www.linkedin.com/in/carlos-berrio-12580ba5/" rel= "nofollow"> <img width="18px" align="center"
 src="/icons/linkedn.svg" style="max-width: 100%;"> <a href="https://github.com/carlosberrio"> <img width="18px" align="center" src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg" style="max-width: 100%;"></a>
 
 ***Santiago Zapata*** @Santiago Zapata Alvarez <a href="https://www.linkedin.com/in/santiago-zapata-alvarez-b01341250/" rel= "nofollow"> <img width="18px" align="center"
