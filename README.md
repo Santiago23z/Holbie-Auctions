@@ -12,11 +12,17 @@ We want to Open this kind of practices, giving You the oporttunity  to sell all 
 We don not want to compite with Big platforms....we just want to offer a different way to help industry yo sell the old products and leak inventories, with simple steps.
 
 The advantages of our product are:
-Ease to use
+
+Easy to use.
+
 Fast response.
+
 Any kind of product, except animals or human organs.
+
 At anytime.
+
 With no limit dates.
+
 
 The companies only just give the inventory of products to our staff in a .xls format. We take that information and we convert that in a format to be  readed in Mongo.db, and after that we can publish in our web site to colect the offers and that's all!
 
