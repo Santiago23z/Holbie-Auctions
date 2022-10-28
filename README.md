@@ -39,6 +39,8 @@ Holbie auctions..... A different way of auctions in the market!!!!!
 
 Thanks to everyone!
 
+https://www.canva.com/design/DAFPoDHvybM/01yjjSkHQh5FMXcJrFdJcA/edit?utm_content=DAFPoDHvybM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 # Authors
 
 ***Diana Marcela Banguera*** @Diana Banguera  <a href="https://www.linkedin.com/in/dianamarcelabanguera/" rel= "nofollow"> <img width="18px" align="center"
